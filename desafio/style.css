@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+/*-----------Reset--------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----- Layout ------ */
+body{
+    background-color: #242222;
+    font-family: 'Concert One', cursive;
+    color: white;
+}   
+
+#titulo{
+    font-size: 3em;
+    margin: 30px;
+    color: white;
+    height: 58px;
+    width: 289px;
+}
+
+/*----- Área do Flexbox -------*/
+
+.container{
+    background-color: #483636;
+    width: 750px;
+    height: 350px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5em;
+    color: #FFF2E7;
+    border-right: 1.5px solid;
+    padding-right: 2em;
+}
+
+p#titulo-div{
+    text-align: center;
+    height: 50px;
+}
+
+
+p label{
+    color:  #eee4da;
+}
+
+.dados{
+    width: 180px;
+    height: 40px;
+    border-radius: 0.5em;
+    background-color: #FFF2E7B2;
+    padding: 3px;
+}
+
+#botao{
+        font: normal 1em 'Concert One', cursive;
+        color: #2F2325;
+        background-color: #FFF2E7;
+        border-radius: 0.5em;
+        height: 46px;
+        width: 207px;
+        padding-bottom: 12px;
+}
+
+#botao:hover{
+    background-color: #2F2325;
+    color: #FFF2E7;
+}
+
+/*-------- Container do Resultado ---------*/
+
+.container-resultados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    
+}
+
+p#titulo-res{
+    margin-top: 7px;
+
+}
+
+div#respostas{
+    width: 270px;
+    font-size: 0.8em;
+    margin: 56px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-- Configuração dos elementos gerados no JS --*/
+
+span.tipo{
+    color: #97D4D9;
+}
+
+span.conteudo{
+    color: #EFC764;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Extra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Desafio extra</h1>
+    </header>
+
+    <section class="container">
+        <div class="container-dados">
+            <p id="titulo-div">Digite os dados <br> do usuario</p>
+
+            <p> <label for="nome">Nome</label> <input type="text" name="nome" id="nome" class="dados"></p>
+
+            <p><label for="idade">Idade</label> <input type="number" name="idade" id="idade" class="dados"></p>
+
+            <p><label for="skills">Skills</label> <input type="text" name="skills" id="skills" class="dados"></p>
+
+            <p><input type="button" value="Cadastrar usuario" onclick="cadastrar()" id="botao"></p>
+        </div>
+        <div class="container-resultados">
+            <p id="titulo-res">Resultado:</p>
+            <div id="respostas">
+        
+            </div>
+        </div>
+    </section>
+
+    <script src="cadastrar.js"></script>
+</body>
+</html>
